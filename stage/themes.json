@@ -1,97 +1,17 @@
 {
   "repos": [
     {
-      "url": "Achuan-2/siyuan-themes-tsundoku@5fab050c62874c81986acf7a09d19441e6a57db6",
-      "updated": "2024-05-08T01:17:14Z",
-      "stars": 84,
-      "openIssues": 3,
-      "size": 3512517,
-      "installSize": 4607200,
-      "package": {
-        "name": "Tsundoku",
-        "author": "Achuan-2",
-        "url": "https://github.com/Achuan-2/siyuan-themes-tsundoku",
-        "version": "2.1.0",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Tsundoku",
-          "zh_CN": "積読",
-          "en_US": ""
-        },
-        "description": {
-          "default": "Tsundoku is acquiring reading materials but letting them pile up in one's home without reading them",
-          "zh_CN": "知识的价值并不体现在它的组织和分类形式上，而是体现在它是否能对与你相关的人或事产生影响",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/achuan-2"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
-      "url": "lingfengyu-dreaming/siyuan-vscodelite-edit@0387537f4ea2829f90694db05d42c884ff8845fd",
-      "updated": "2024-05-06T02:34:14Z",
-      "stars": 1,
+      "url": "mustakshif/Asri@f84aeede0e33e56cf5a7353b1db8a9bbfeb301d4",
+      "updated": "2024-06-30T16:17:12Z",
+      "stars": 45,
       "openIssues": 2,
-      "size": 188429,
-      "installSize": 1773762,
-      "package": {
-        "name": "siyuan-vscodelite-edit",
-        "author": "Emptylight",
-        "url": "https://github.com/lingfengyu-dreaming/siyuan-vscodelite-edit",
-        "version": "1.1.4",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "VSCode Lite Edit",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "description": {
-          "default": "Evolved from VSCode Lite, further beautifying the interface.",
-          "zh_CN": "从VSCode Lite中改造而来，进一步美化界面。",
-          "en_US": "Evolved from VSCode Lite, further beautifying the interface."
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": "README.md"
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": []
-        },
-        "keywords": null
-      }
-    },
-    {
-      "url": "mustakshif/Asri@3daf403de6525fa99f0eee279ab5d5d738a57f6d",
-      "updated": "2024-05-05T16:22:30Z",
-      "stars": 32,
-      "openIssues": 2,
-      "size": 2009900,
-      "installSize": 2310555,
+      "size": 2014154,
+      "installSize": 2343139,
       "package": {
         "name": "Asri",
         "author": "MUSTAKSHIF",
         "url": "https://github.com/mustakshif/Asri",
-        "version": "3.0.7",
+        "version": "3.0.17",
         "minAppVersion": "",
         "backends": null,
         "frontends": null,
@@ -125,10 +45,254 @@
       }
     },
     {
+      "url": "royc01/notion-theme@42938d42f75103d5d22c28ce41f5235aca989e27",
+      "updated": "2024-06-25T05:27:58Z",
+      "stars": 103,
+      "openIssues": 15,
+      "size": 1087958,
+      "installSize": 1329342,
+      "package": {
+        "name": "Savor",
+        "author": "Roy",
+        "url": "https://github.com/royc01/notion-theme",
+        "version": "4.0.2",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Savor",
+          "zh_CN": "写味",
+          "en_US": ""
+        },
+        "description": {
+          "default": "You said you couldn’t bear to consume such a feeling.",
+          "zh_CN": "写味主题重制正式版发布，继续深度优化流畅度。",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.net/a/Savor"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "lingfengyu-dreaming/siyuan-vscodelite-edit@f1d21f3de637e2692081cc91b07522421c99e12d",
+      "updated": "2024-06-17T02:25:34Z",
+      "stars": 1,
+      "openIssues": 2,
+      "size": 188428,
+      "installSize": 1773863,
+      "package": {
+        "name": "siyuan-vscodelite-edit",
+        "author": "Emptylight",
+        "url": "https://github.com/lingfengyu-dreaming/siyuan-vscodelite-edit",
+        "version": "1.1.5",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "VSCode Lite Edit",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Evolved from VSCode Lite, further beautifying the interface.",
+          "zh_CN": "从VSCode Lite中改造而来，进一步美化界面。",
+          "en_US": "Evolved from VSCode Lite, further beautifying the interface."
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": "README.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": []
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "frostime/sy-theme-trends@3c6eb167535a429c2ea4461cd64e0c9c42b5c53a",
+      "updated": "2024-06-02T10:37:43Z",
+      "stars": 0,
+      "openIssues": 0,
+      "size": 441852,
+      "installSize": 467732,
+      "package": {
+        "name": "trends-in-siyuan",
+        "author": "frostime",
+        "url": "https://github.com/frostime/sy-theme-trends",
+        "version": "0.3.5",
+        "minAppVersion": "2.9.0",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Trends in SiYuan",
+          "zh_CN": "Trends in SiYuan",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Theme for SiYuan inspired by Trends series journals.",
+          "zh_CN": "仿 Trends 系列期刊主题",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.net/a/frostime"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "Achuan-2/siyuan-themes-tsundoku@449bd1dfc7b9e2165f9e782381b31c4921f3a721",
+      "updated": "2024-05-31T13:32:14Z",
+      "stars": 86,
+      "openIssues": 0,
+      "size": 3519157,
+      "installSize": 4621937,
+      "package": {
+        "name": "Tsundoku",
+        "author": "Achuan-2",
+        "url": "https://github.com/Achuan-2/siyuan-themes-tsundoku",
+        "version": "2.1.7",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Tsundoku",
+          "zh_CN": "積読",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Tsundoku is acquiring reading materials but letting them pile up in one's home without reading them",
+          "zh_CN": "知识的价值并不体现在它的组织和分类形式上，而是体现在它是否能对与你相关的人或事产生影响",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.net/a/achuan-2"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "idea-zone/mini-vlook@6b4bc1da2cd44e72353545ccff8850f3ab779a84",
+      "updated": "2024-05-24T01:45:09Z",
+      "stars": 20,
+      "openIssues": 9,
+      "size": 7698625,
+      "installSize": 20090252,
+      "package": {
+        "name": "mini-vlook",
+        "author": "路人二",
+        "url": "https://github.com/idea-zone/mini-vlook",
+        "version": "3.0.15",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "mini-vlook（简洁版vlook）",
+          "zh_CN": "mini-vlook（简洁版vlook）",
+          "en_US": "mini-vlook"
+        },
+        "description": {
+          "default": "简洁而不简单, 让你的 markdown 有了 ‘微型’ 的新看法",
+          "zh_CN": "简洁而不简单, 让你的 markdown 有了 ‘微型’ 的新看法",
+          "en_US": "Concise but not simple, let you have a 'mini' new look on markdown"
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README.md",
+          "en_US": "README_en_US.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.net/a/mini-vlook"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "royc01/Odyssey@443dd10afefe25f18bc32ee8dd7b98ff303b66c8",
+      "updated": "2024-05-16T05:40:47Z",
+      "stars": 6,
+      "openIssues": 5,
+      "size": 1961904,
+      "installSize": 2248329,
+      "package": {
+        "name": "Odyssey",
+        "author": "Roy",
+        "url": "https://github.com/royc01/Odyssey",
+        "version": "1.1.5",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Odyssey",
+          "zh_CN": "任我行",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Since when have we started to worry that there is no one in the mountain? Since when have we started to be scared about looking at the stars?",
+          "zh_CN": "从何时开始忌讳空山无人，从何时开始怕遥望星尘。",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.net/a/Savor"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
       "url": "Zuoqiu-Yingyi/siyuan-theme-dark-plus@f00fde78d365334c9aa0ff1240db442cd9939775",
       "updated": "2024-05-02T14:36:15Z",
-      "stars": 137,
-      "openIssues": 18,
+      "stars": 139,
+      "openIssues": 19,
       "size": 9137507,
       "installSize": 13252506,
       "package": {
@@ -182,170 +346,6 @@
           "多功能",
           "multifunction"
         ]
-      }
-    },
-    {
-      "url": "royc01/Odyssey@d268ed68996045113a92ea81da016ff0dc0ea466",
-      "updated": "2024-04-30T02:55:16Z",
-      "stars": 6,
-      "openIssues": 2,
-      "size": 1961678,
-      "installSize": 2247697,
-      "package": {
-        "name": "Odyssey",
-        "author": "Roy",
-        "url": "https://github.com/royc01/Odyssey",
-        "version": "1.1.4",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Odyssey",
-          "zh_CN": "任我行",
-          "en_US": ""
-        },
-        "description": {
-          "default": "Since when have we started to worry that there is no one in the mountain? Since when have we started to be scared about looking at the stars?",
-          "zh_CN": "从何时开始忌讳空山无人，从何时开始怕遥望星尘。",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/Savor"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
-      "url": "royc01/notion-theme@256fa1415c6a66d9b63e8b09f8cd3cad750b743c",
-      "updated": "2024-04-30T02:53:47Z",
-      "stars": 101,
-      "openIssues": 15,
-      "size": 1086017,
-      "installSize": 1324127,
-      "package": {
-        "name": "Savor",
-        "author": "Roy",
-        "url": "https://github.com/royc01/notion-theme",
-        "version": "3.9.3",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Savor",
-          "zh_CN": "写味",
-          "en_US": ""
-        },
-        "description": {
-          "default": "You said you couldn’t bear to consume such a feeling.",
-          "zh_CN": "写味主题重制正式版发布，继续深度优化流畅度。",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/Savor"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
-      "url": "idea-zone/mini-vlook@5cdb50a3c3146f60f5bd262cf1040ab00fe3bb1e",
-      "updated": "2024-04-26T02:04:03Z",
-      "stars": 20,
-      "openIssues": 9,
-      "size": 7540365,
-      "installSize": 19522903,
-      "package": {
-        "name": "mini-vlook",
-        "author": "路人二",
-        "url": "https://github.com/idea-zone/mini-vlook",
-        "version": "3.0.10",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "mini-vlook（简洁版vlook）",
-          "zh_CN": "mini-vlook（简洁版vlook）",
-          "en_US": "mini-vlook"
-        },
-        "description": {
-          "default": "简洁而不简单, 让你的 markdown 有了 ‘微型’ 的新看法",
-          "zh_CN": "简洁而不简单, 让你的 markdown 有了 ‘微型’ 的新看法",
-          "en_US": "Concise but not simple, let you have a 'mini' new look on markdown"
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": "README_en_US.md"
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/mini-vlook"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
-      "url": "frostime/sy-theme-trends@4e98c7207a2917c0a3b49552dd469a7b28d2b265",
-      "updated": "2024-04-16T14:37:53Z",
-      "stars": 0,
-      "openIssues": 0,
-      "size": 441842,
-      "installSize": 467680,
-      "package": {
-        "name": "trends-in-siyuan",
-        "author": "frostime",
-        "url": "https://github.com/frostime/sy-theme-trends",
-        "version": "0.3.4",
-        "minAppVersion": "2.9.0",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Trends in SiYuan",
-          "zh_CN": "Trends in SiYuan",
-          "en_US": ""
-        },
-        "description": {
-          "default": "Theme for SiYuan inspired by Trends series journals.",
-          "zh_CN": "仿 Trends 系列期刊主题",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/frostime"
-          ]
-        },
-        "keywords": null
       }
     },
     {
@@ -476,7 +476,7 @@
       "url": "Morganwan90/Lightblue-siyuan-theme@9472b50372cf9435b1537d10dcb1b959f5e4689d",
       "updated": "2024-03-24T05:41:46Z",
       "stars": 26,
-      "openIssues": 0,
+      "openIssues": 1,
       "size": 732402,
       "installSize": 1411203,
       "package": {
@@ -1293,7 +1293,7 @@
       "url": "StarDustSheep/StarDust@9c504a5db5fa83e5f0f87d375551860fa4f95828",
       "updated": "2023-08-07T09:23:18Z",
       "stars": 5,
-      "openIssues": 3,
+      "openIssues": 4,
       "size": 457694,
       "installSize": 627897,
       "package": {
@@ -1374,8 +1374,8 @@
     {
       "url": "svchord/Rem-Craft@529e1a1eca8223eff668a02547d80f8b59ddb915",
       "updated": "2023-07-09T19:20:51Z",
-      "stars": 107,
-      "openIssues": 16,
+      "stars": 110,
+      "openIssues": 17,
       "size": 1620626,
       "installSize": 2772440,
       "package": {
@@ -1415,7 +1415,7 @@
     {
       "url": "siyuan-note/theme-sample@1ff7079a27543e589f0ed18effaceaf40ccdf8cf",
       "updated": "2023-05-30T03:42:50Z",
-      "stars": 2,
+      "stars": 3,
       "openIssues": 0,
       "size": 13340,
       "installSize": 26549,
