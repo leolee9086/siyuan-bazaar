@@ -13,6 +13,7 @@ package main
 import (
 	"context"
 	"fmt"
+	"image"
 	"net/http"
 	"os"
 	"strings"
@@ -147,14 +148,13 @@ func checkRepos(
 	for _, originRepo := range originRepos {
 		originUrl := originRepo.(map[string]interface{})["url"].(string)
 		originUrl = strings.Split(originUrl, "@")[0]
-		originUrl = strings.ToLower(originUrl)
 		originRepoSet[originUrl] = nil
 
 		originPackage := originRepo.(map[string]interface{})["package"]
 		if originPackage != nil {
 			originPackageName := originPackage.(map[string]interface{})["name"]
 			if originPackageName != nil {
-				originName := strings.ToLower(originPackageName.(string))
+				originName := originPackageName.(string)
 				originNameSet[originName] = nil
 			}
 		}
@@ -163,7 +163,6 @@ func checkRepos(
 	newRepos := []string{} // 新增的仓库列表
 	for _, targetRepo := range targetRepos {
 		targetRepoPath := targetRepo.(string)
-		targetRepoPath = strings.ToLower(targetRepoPath)
 		if !isKeyInSet(targetRepoPath, originRepoSet) {
 			newRepos = append(newRepos, targetRepoPath)
 		}
@@ -259,31 +258,39 @@ func checkRepo(
 		if attrsCheckResult, err = checkManifestAttrs(manifestFileUrl); err != nil {
 			logger.Warnf("check repo <\033[7m%s\033[0m> manifest file <\033[7m%s\033[0m> failed: %s", repoPath, manifestFileUrl, err)
 		} else {
-			name := strings.ToLower(attrsCheckResult.Name.Value)
-			if name != "" {
-				// 字段唯一性检查
+			// 有效性检查
+			attrsCheckResult.Name.Valid = isValidName(attrsCheckResult.Name.Value)
+			if attrsCheckResult.Name.Valid {
+				// name 必须和 repo name 一致
+				attrsCheckResult.Name.Valid = attrsCheckResult.Name.Value == repoName
+				if !attrsCheckResult.Name.Valid {
+					logger.Warnf("repo <\033[7m%s\033[0m> name <\033[7m%s\033[0m> is not equal to repo name <\033[7m%s\033[0m>", repoPath, attrsCheckResult.Name.Value, repoName)
+				}
+			} else {
+				logger.Warnf("repo <\033[7m%s\033[0m> name <\033[7m%s\033[0m> is invalid", repoPath, attrsCheckResult.Name.Value)
+			}
+
+			// 唯一性检查
+			if attrsCheckResult.Name.Valid {
+				name := attrsCheckResult.Name.Value
 				if isKeyInSet(name, nameSet) {
 					logger.Warnf("repo <\033[7m%s\033[0m> name <\033[7m%s\033[0m> already exists", repoPath, name)
 				} else {
 					nameSet[name] = nil // 新的 name 添加到检查集合中
 
-					attrsCheckResult.Name.Unique = true // name 字段通过唯一性检查
+					attrsCheckResult.Name.Unique = true // name 通过唯一性检查
 				}
-
-				// 字段有效性检查
-				if attrsCheckResult.Name.Valid, err = isValieName(name); err != nil {
-					logger.Warn(err)
-				}
-
-				attrsCheckResult.Name.Pass = attrsCheckResult.Name.Unique &&
-					attrsCheckResult.Name.Valid
-
-				attrsCheckResult.Pass = attrsCheckResult.Name.Pass &&
-					attrsCheckResult.Version.Pass &&
-					attrsCheckResult.Author.Pass &&
-					attrsCheckResult.URL.Pass
 			}
 		}
+
+		attrsCheckResult.Name.Pass = attrsCheckResult.Name.Exist &&
+			attrsCheckResult.Name.Valid &&
+			attrsCheckResult.Name.Unique
+
+		attrsCheckResult.Pass = attrsCheckResult.Name.Pass &&
+			attrsCheckResult.Version.Pass &&
+			attrsCheckResult.Author.Pass &&
+			attrsCheckResult.URL.Pass
 
 		// 检查文件
 		var filesCheckResult interface{} // 文件检查结果
@@ -612,7 +619,7 @@ func checkFileExist(
 		filePath,
 	) // 文件预览地址
 
-	response, _, errs := gorequest.
+	response, data, errs := gorequest.
 		New().
 		Head(rawUrl).
 		Set("User-Agent", util.UserAgent).
@@ -624,6 +631,34 @@ func checkFileExist(
 		panic(errs)
 	}
 	if response.StatusCode == http.StatusOK {
+		if strings.HasSuffix(filePath, ".png") && 0 < len(data) {
+			if strings.HasSuffix(filePath, "icon.png") {
+				// 图标大小 160*160
+				img, _, decodeErr := image.DecodeConfig(strings.NewReader(data))
+				if decodeErr != nil {
+					logger.Warnf("check icon.png file <\033[7m%s\033[0m> size failed: %s", rawUrl, decodeErr)
+				} else {
+					if img.Width != 160 || img.Height != 160 {
+						logger.Warnf("icon.png file <\033[7m%s\033[0m> size is not 160x160", rawUrl)
+						fileCheckResult.Pass = false
+						return
+					}
+				}
+			} else if strings.HasSuffix(filePath, "preview.png") {
+				// 预览图大小 1024*768
+				img, _, decodeErr := image.DecodeConfig(strings.NewReader(data))
+				if decodeErr != nil {
+					logger.Warnf("check preview.png file <\033[7m%s\033[0m> size failed: %s", rawUrl, decodeErr)
+				} else {
+					if img.Width != 1024 || img.Height != 768 {
+						logger.Warnf("preview.png file <\033[7m%s\033[0m> size is not 1024x768", rawUrl)
+						fileCheckResult.Pass = false
+						return
+					}
+				}
+			}
+		}
+
 		fileCheckResult.Pass = true
 		return
 	} else if response.StatusCode == http.StatusNotFound {
@@ -664,6 +699,7 @@ func checkManifestAttrs(fileURL string) (attrsCheckResult *Attrs, err error) {
 	if name := manifest["name"]; name != nil {
 		if value := name.(string); value != "" {
 			attrsCheckResult.Name.Value = value
+			attrsCheckResult.Name.Exist = true
 		}
 	}
 	if version := manifest["version"]; version != nil {
@@ -684,6 +720,5 @@ func checkManifestAttrs(fileURL string) (attrsCheckResult *Attrs, err error) {
 			attrsCheckResult.URL.Pass = true
 		}
 	}
-
 	return
 }

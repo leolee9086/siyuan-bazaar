@@ -20,12 +20,16 @@ import (
 	"time"
 
 	"github.com/88250/gulu"
+	"github.com/microcosm-cc/bluemonday"
 	"github.com/panjf2000/ants/v2"
 	"github.com/parnurzeal/gorequest"
 	"github.com/siyuan-note/bazaar/actions/util"
 )
 
-var logger = gulu.Log.NewLogger(os.Stdout)
+var (
+	logger     = gulu.Log.NewLogger(os.Stdout)
+	sterilizer = bluemonday.UGCPolicy()
+)
 
 func main() {
 	logger.Infof("bazaar is staging...")
@@ -207,6 +211,8 @@ func getPackage(ownerRepo, hash, typ string) (ret *Package) {
 		ret = nil
 		return
 	}
+
+	sanitizePackage(ret)
 	return
 }
 
@@ -263,7 +269,7 @@ func repoStats(repoURL, hash string) (stars, openIssues int) {
 	u := "https://api.github.com/repos/" + repoURL
 	resp, _, errs := request.Get(u).
 		Set("Authorization", "Token "+pat).
-		Set("User-Agent", util.UserAgent).Timeout(7*time.Second).
+		Set("User-Agent", util.UserAgent).Timeout(30*time.Second).
 		Retry(1, 3*time.Second).EndStruct(&result)
 	if nil != errs {
 		logger.Fatalf("get [%s] failed: %s", u, errs)
@@ -289,8 +295,8 @@ func getRepoLatestRelease(repoURL string) (hash, published, packageZip string) {
 	u := "https://api.github.com/repos/" + repoURL + "/releases/latest"
 	resp, _, errs := request.Get(u).
 		Set("Authorization", "Token "+pat).
-		Set("User-Agent", util.UserAgent).Timeout(7*time.Second).
-		Retry(1, 3*time.Second).EndStruct(&result)
+		Set("User-Agent", util.UserAgent).Timeout(30*time.Second).
+		Retry(3, 3*time.Second).EndStruct(&result)
 	if nil != errs {
 		logger.Fatalf("get release hash [%s] failed: %s", u, errs)
 		return
@@ -322,7 +328,7 @@ func getRepoLatestRelease(repoURL string) (hash, published, packageZip string) {
 	u = "https://api.github.com/repos/" + repoURL + "/git/ref/tags/" + tagName
 	resp, _, errs = request.Get(u).
 		Set("Authorization", "Token "+pat).
-		Set("User-Agent", util.UserAgent).Timeout(7*time.Second).
+		Set("User-Agent", util.UserAgent).Timeout(30*time.Second).
 		Retry(1, 3*time.Second).EndStruct(&result)
 	if nil != errs {
 		logger.Warnf("get release hash [%s] failed: %s", u, errs)
@@ -341,7 +347,7 @@ func getRepoLatestRelease(repoURL string) (hash, published, packageZip string) {
 		u = "https://api.github.com/repos/" + repoURL + "/git/tags/" + hash
 		resp, _, errs = request.Get(u).
 			Set("Authorization", "Token "+pat).
-			Set("User-Agent", util.UserAgent).Timeout(7*time.Second).
+			Set("User-Agent", util.UserAgent).Timeout(30*time.Second).
 			Retry(1, 3*time.Second).EndStruct(&result)
 		if nil != errs {
 			logger.Fatalf("get release hash [%s] failed: %s", u, errs)
@@ -355,6 +361,25 @@ func getRepoLatestRelease(repoURL string) (hash, published, packageZip string) {
 		hash = result["object"].(map[string]interface{})["sha"].(string)
 	}
 	return
+}
+
+// sanitizePackage 对 Package 中部分字段消毒
+func sanitizePackage(pkg *Package) {
+	// REF: https://pkg.go.dev/github.com/microcosm-cc/bluemonday#Policy.Sanitize
+	pkg.Name = sterilizer.Sanitize(pkg.Name)
+	pkg.Author = sterilizer.Sanitize(pkg.Author)
+
+	if nil != pkg.DisplayName {
+		pkg.DisplayName.Default = sterilizer.Sanitize(pkg.DisplayName.Default)
+		pkg.DisplayName.ZhCN = sterilizer.Sanitize(pkg.DisplayName.ZhCN)
+		pkg.DisplayName.EnUS = sterilizer.Sanitize(pkg.DisplayName.EnUS)
+	}
+
+	if nil != pkg.Description {
+		pkg.Description.Default = sterilizer.Sanitize(pkg.Description.Default)
+		pkg.Description.ZhCN = sterilizer.Sanitize(pkg.Description.ZhCN)
+		pkg.Description.EnUS = sterilizer.Sanitize(pkg.Description.EnUS)
+	}
 }
 
 type DisplayName struct {

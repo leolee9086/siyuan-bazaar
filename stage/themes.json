@@ -1,61 +1,17 @@
 {
   "repos": [
     {
-      "url": "mustakshif/Asri@f84aeede0e33e56cf5a7353b1db8a9bbfeb301d4",
-      "updated": "2024-06-30T16:17:12Z",
-      "stars": 45,
+      "url": "royc01/notion-theme@79d860f016792a17a90f1221890f195529a5d493",
+      "updated": "2025-11-08T16:05:46Z",
+      "stars": 122,
       "openIssues": 2,
-      "size": 2014154,
-      "installSize": 2343139,
-      "package": {
-        "name": "Asri",
-        "author": "MUSTAKSHIF",
-        "url": "https://github.com/mustakshif/Asri",
-        "version": "3.0.17",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Asri",
-          "zh_CN": "Asri",
-          "en_US": "Asri"
-        },
-        "description": {
-          "default": "极富现代感的思源笔记主题，以简洁、符合直觉的设计，带来优雅、高效、个性化的笔记体验。",
-          "zh_CN": "极富现代感的思源笔记主题，以简洁、符合直觉的设计，带来优雅、高效、个性化的笔记体验。",
-          "en_US": "An ultra-modern theme that delivers an elegant, efficient, and personalized note-taking experience through its clean, intuitive design."
-        },
-        "readme": {
-          "default": "README_zh_CN.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": "README.md"
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/mustakshif"
-          ]
-        },
-        "keywords": [
-          "Asri",
-          "Hadeeth"
-        ]
-      }
-    },
-    {
-      "url": "royc01/notion-theme@42938d42f75103d5d22c28ce41f5235aca989e27",
-      "updated": "2024-06-25T05:27:58Z",
-      "stars": 103,
-      "openIssues": 15,
-      "size": 1087958,
-      "installSize": 1329342,
+      "size": 1188812,
+      "installSize": 1551993,
       "package": {
         "name": "Savor",
         "author": "Roy",
         "url": "https://github.com/royc01/notion-theme",
-        "version": "4.0.2",
+        "version": "5.9.7",
         "minAppVersion": "",
         "backends": null,
         "frontends": null,
@@ -65,8 +21,8 @@
           "en_US": ""
         },
         "description": {
-          "default": "You said you couldn’t bear to consume such a feeling.",
-          "zh_CN": "写味主题重制正式版发布，继续深度优化流畅度。",
+          "default": "You said that you grudged eating up this kinda feeling.",
+          "zh_CN": "你说你舍不得吃掉这一种感觉",
           "en_US": ""
         },
         "readme": {
@@ -79,25 +35,302 @@
           "patreon": "",
           "github": "",
           "custom": [
-            "https://afdian.net/a/Savor"
+            "https://afdian.com/a/Savor"
           ]
         },
         "keywords": null
       }
     },
     {
-      "url": "lingfengyu-dreaming/siyuan-vscodelite-edit@f1d21f3de637e2692081cc91b07522421c99e12d",
-      "updated": "2024-06-17T02:25:34Z",
-      "stars": 1,
-      "openIssues": 2,
-      "size": 188428,
-      "installSize": 1773863,
+      "url": "QYLexpired/QYL-theme@0597b7ab8f7ea0548a986c7e01f13a89f204aeab",
+      "updated": "2025-11-06T06:11:30Z",
+      "stars": 121,
+      "openIssues": 1,
+      "size": 1018824,
+      "installSize": 2300428,
+      "package": {
+        "name": "QYL-theme",
+        "author": "QYL",
+        "url": "https://github.com/QYLexpired/QYL-theme",
+        "version": "4.6.5",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "QYL",
+          "zh_CN": "QYL",
+          "en_US": "QYL"
+        },
+        "description": {
+          "default": "Deliver an enhanced note-taking experience.",
+          "zh_CN": "带来更丰富的笔记体验",
+          "en_US": "Deliver an enhanced note-taking experience."
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": "README.md"
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://ifdian.net/a/QYLexpired"
+          ]
+        },
+        "keywords": [
+          "QYL"
+        ]
+      }
+    },
+    {
+      "url": "chenshinshi/nightArk@373eb6456f3ae57b3d8cbd1bc0182603d004ec3f",
+      "updated": "2025-10-31T23:42:04Z",
+      "stars": 0,
+      "openIssues": 0,
+      "size": 1692374,
+      "installSize": 1766529,
+      "package": {
+        "name": "nightArk",
+        "author": "chenshinshi",
+        "url": "https://github.com/chenshinshi/nightArk",
+        "version": "1.9.0",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "nightArk",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "description": {
+          "default": "粗陋的仿明日方舟风格主题。",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "funding": null,
+        "keywords": null
+      }
+    },
+    {
+      "url": "mustakshif/Asri@7ddc7cca562aaa97fbf940e9f50db25d6d077fb9",
+      "updated": "2025-10-27T13:50:06Z",
+      "stars": 92,
+      "openIssues": 6,
+      "size": 3016200,
+      "installSize": 3420637,
+      "package": {
+        "name": "Asri",
+        "author": "mustakshif",
+        "url": "https://github.com/mustakshif/Asri",
+        "version": "3.5.17",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Asri",
+          "zh_CN": "Asri",
+          "en_US": "Asri"
+        },
+        "description": {
+          "default": "Crafting a space where visual distractions disappear and your thinking takes center stage - immersive, focused, and intuitively guided.",
+          "zh_CN": "极富现代感的主题，以隐形设计构筑沉浸空间，为你带来专注、优雅、直觉驱动的笔记体验。",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": []
+        },
+        "keywords": [
+          "Asri",
+          "Hadeeth"
+        ]
+      }
+    },
+    {
+      "url": "TCOTC/Whisper@99f6fe12dcd46d4b3b123db5dc0e27d868bb4c65",
+      "updated": "2025-10-24T20:21:14Z",
+      "stars": 14,
+      "openIssues": 9,
+      "size": 174239,
+      "installSize": 287085,
+      "package": {
+        "name": "Whisper",
+        "author": "TCOTC",
+        "url": "https://github.com/TCOTC/Whisper",
+        "version": "1.6.4",
+        "minAppVersion": "3.3.0",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Whisper",
+          "zh_CN": "浅吟",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Whisper the words of time gently, and let the soul encounter the splendid dream of blooming flowers in tranquility.",
+          "zh_CN": "浅吟时光的絮语，让心灵于静谧中邂逅繁花盛绽的绮梦。",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://bento.me/jeffff"
+          ]
+        },
+        "keywords": [
+          "浅吟主题",
+          "whisper theme"
+        ]
+      }
+    },
+    {
+      "url": "alensiljak/alens-black-theme@9a389b715480d2d31b7a22e4fbb7995c21382334",
+      "updated": "2025-10-19T10:38:59Z",
+      "stars": 0,
+      "openIssues": 0,
+      "size": 123212,
+      "installSize": 161350,
+      "package": {
+        "name": "alens-black-theme",
+        "author": "Alen Siljak",
+        "url": "https://github.com/alensiljak/alens-black-theme",
+        "version": "1.3.3",
+        "minAppVersion": "3.0.0",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Alen\u0026#39;s Black Theme",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "description": {
+          "default": "A high-contrast dark theme for SiYuan",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": []
+        },
+        "keywords": []
+      }
+    },
+    {
+      "url": "Achuan-2/siyuan-themes-tsundoku@88c716d855aeb5bfe4b45ef71d72c5f89c27c143",
+      "updated": "2025-10-04T13:50:39Z",
+      "stars": 109,
+      "openIssues": 0,
+      "size": 3539491,
+      "installSize": 4755987,
+      "package": {
+        "name": "Tsundoku",
+        "author": "Achuan-2",
+        "url": "https://github.com/Achuan-2/siyuan-themes-tsundoku",
+        "version": "2.7.1",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Tsundoku",
+          "zh_CN": "積読",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Tsundoku is acquiring reading materials but letting them pile up in one\u0026#39;s home without reading them",
+          "zh_CN": "知识的价值并不体现在它的组织和分类形式上，而是体现在它是否能对与你相关的人或事产生影响",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://www.yuque.com/achuan-2"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "chenshinshi/Cliff-Dark@08269a5e48f94a0326748ffe750e60ae47257fdb",
+      "updated": "2025-09-27T04:48:09Z",
+      "stars": 2,
+      "openIssues": 4,
+      "size": 3025959,
+      "installSize": 3257313,
+      "package": {
+        "name": "Cliff Dark",
+        "author": "Crowds21",
+        "url": "https://github.com/chenshinshi/Cliff-Dark",
+        "version": "3.4.4",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Cliff-Dark",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "description": {
+          "default": "一款适合背景图片插件的夜间主题，由Crowds21制作，chenshinshi适配新版本。",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "funding": null,
+        "keywords": null
+      }
+    },
+    {
+      "url": "emptylight370/siyuan-vscodelite-edit@ce9a52288548f75a62adc4feafa0e84beb80550e",
+      "updated": "2025-09-22T12:13:18Z",
+      "stars": 3,
+      "openIssues": 4,
+      "size": 300903,
+      "installSize": 529833,
       "package": {
         "name": "siyuan-vscodelite-edit",
         "author": "Emptylight",
-        "url": "https://github.com/lingfengyu-dreaming/siyuan-vscodelite-edit",
-        "version": "1.1.5",
-        "minAppVersion": "",
+        "url": "https://github.com/emptylight370/siyuan-vscodelite-edit",
+        "version": "2.5.0",
+        "minAppVersion": "3.1.27",
         "backends": null,
         "frontends": null,
         "displayName": {
@@ -108,35 +341,119 @@
         "description": {
           "default": "Evolved from VSCode Lite, further beautifying the interface.",
           "zh_CN": "从VSCode Lite中改造而来，进一步美化界面。",
-          "en_US": "Evolved from VSCode Lite, further beautifying the interface."
+          "en_US": ""
         },
         "readme": {
           "default": "README.md",
           "zh_CN": "README_zh_CN.md",
-          "en_US": "README.md"
+          "en_US": ""
         },
         "funding": {
           "openCollective": "",
           "patreon": "",
           "github": "",
-          "custom": []
+          "custom": [
+            "https://afdian.com/a/tingyuting"
+          ]
         },
+        "keywords": [
+          "vscode",
+          "vscodelite",
+          "vscode lite",
+          "VSCE",
+          "VSCE主题",
+          "light",
+          "dark",
+          "emptylight",
+          "emptylight370"
+        ]
+      }
+    },
+    {
+      "url": "hongster/dracula-siyuan-theme@5cbf21cb64c74b97832c5ca93f9e4377fd60bfd7",
+      "updated": "2025-09-19T10:06:56Z",
+      "stars": 0,
+      "openIssues": 0,
+      "size": 236869,
+      "installSize": 250132,
+      "package": {
+        "name": "dracula-siyuan-theme",
+        "author": "Leong Hean Hong",
+        "url": "https://github.com/hongster/dracula-siyuan-theme",
+        "version": "1.0.1",
+        "minAppVersion": "2.8.8",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Dracula Theme",
+          "zh_CN": "Dracula 暗色系主题",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Inspired by draculatheme.com",
+          "zh_CN": "受 draculatheme.com 启发",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "hongster85",
+          "github": "hongster",
+          "custom": null
+        },
+        "keywords": [
+          "dracula",
+          "dark"
+        ]
+      }
+    },
+    {
+      "url": "chenshinshi/blue-dog@e0ff7dbbeeaa638138e3073e283e9b9e698453a9",
+      "updated": "2025-08-27T01:19:59Z",
+      "stars": 1,
+      "openIssues": 0,
+      "size": 6538819,
+      "installSize": 10201551,
+      "package": {
+        "name": "blue-dog",
+        "author": "UserZYF",
+        "url": "https://github.com/chenshinshi/blue-dog",
+        "version": "0.34",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Blue-dog",
+          "zh_CN": "Blue-dog",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Blue-dog主题",
+          "zh_CN": "Blue-dog主题",
+          "en_US": ""
+        },
+        "readme": null,
+        "funding": null,
         "keywords": null
       }
     },
     {
-      "url": "frostime/sy-theme-trends@3c6eb167535a429c2ea4461cd64e0c9c42b5c53a",
-      "updated": "2024-06-02T10:37:43Z",
+      "url": "frostime/sy-theme-trends@81be4633f9492e98763c47368b6cf98d6d2547f8",
+      "updated": "2025-08-16T10:29:40Z",
       "stars": 0,
       "openIssues": 0,
-      "size": 441852,
-      "installSize": 467732,
+      "size": 442413,
+      "installSize": 468756,
       "package": {
         "name": "trends-in-siyuan",
         "author": "frostime",
         "url": "https://github.com/frostime/sy-theme-trends",
-        "version": "0.3.5",
-        "minAppVersion": "2.9.0",
+        "version": "0.5.0",
+        "minAppVersion": "3.2.0",
         "backends": null,
         "frontends": null,
         "displayName": {
@@ -159,65 +476,58 @@
           "patreon": "",
           "github": "",
           "custom": [
-            "https://afdian.net/a/frostime"
+            "https://afdian.com/a/frostime"
           ]
         },
         "keywords": null
       }
     },
     {
-      "url": "Achuan-2/siyuan-themes-tsundoku@449bd1dfc7b9e2165f9e782381b31c4921f3a721",
-      "updated": "2024-05-31T13:32:14Z",
-      "stars": 86,
-      "openIssues": 0,
-      "size": 3519157,
-      "installSize": 4621937,
+      "url": "chenshinshi/chuizi@24dee22f294619a3cc2ca3a014d1e06de4e98da8",
+      "updated": "2025-07-26T09:25:38Z",
+      "stars": 4,
+      "openIssues": 2,
+      "size": 20065196,
+      "installSize": 30483498,
       "package": {
-        "name": "Tsundoku",
-        "author": "Achuan-2",
-        "url": "https://github.com/Achuan-2/siyuan-themes-tsundoku",
-        "version": "2.1.7",
+        "name": "chuizi",
+        "author": "chenshinshi",
+        "url": "https://github.com/chenshinshi/chuizi",
+        "version": "0.41",
         "minAppVersion": "",
         "backends": null,
         "frontends": null,
         "displayName": {
-          "default": "Tsundoku",
-          "zh_CN": "積読",
+          "default": "chuizi",
+          "zh_CN": "锤子",
           "en_US": ""
         },
         "description": {
-          "default": "Tsundoku is acquiring reading materials but letting them pile up in one's home without reading them",
-          "zh_CN": "知识的价值并不体现在它的组织和分类形式上，而是体现在它是否能对与你相关的人或事产生影响",
+          "default": "Upload chuizi theme by UserZYF",
+          "zh_CN": "搬运UserZYF仿锤子便签主题",
           "en_US": ""
         },
         "readme": {
           "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
+          "zh_CN": "README.md",
           "en_US": ""
         },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/achuan-2"
-          ]
-        },
+        "funding": null,
         "keywords": null
       }
     },
     {
-      "url": "idea-zone/mini-vlook@6b4bc1da2cd44e72353545ccff8850f3ab779a84",
-      "updated": "2024-05-24T01:45:09Z",
-      "stars": 20,
-      "openIssues": 9,
-      "size": 7698625,
-      "installSize": 20090252,
+      "url": "idea-zone/mini-vlook@9043e1e587e8b2e8599489728958e9f8e48f07ff",
+      "updated": "2025-07-24T12:45:35Z",
+      "stars": 21,
+      "openIssues": 7,
+      "size": 3774174,
+      "installSize": 11590750,
       "package": {
         "name": "mini-vlook",
         "author": "路人二",
         "url": "https://github.com/idea-zone/mini-vlook",
-        "version": "3.0.15",
+        "version": "3.2.1",
         "minAppVersion": "",
         "backends": null,
         "frontends": null,
@@ -229,7 +539,7 @@
         "description": {
           "default": "简洁而不简单, 让你的 markdown 有了 ‘微型’ 的新看法",
           "zh_CN": "简洁而不简单, 让你的 markdown 有了 ‘微型’ 的新看法",
-          "en_US": "Concise but not simple, let you have a 'mini' new look on markdown"
+          "en_US": "Concise but not simple, let you have a \u0026#39;mini\u0026#39; new look on markdown"
         },
         "readme": {
           "default": "README.md",
@@ -248,28 +558,96 @@
       }
     },
     {
-      "url": "royc01/Odyssey@443dd10afefe25f18bc32ee8dd7b98ff303b66c8",
-      "updated": "2024-05-16T05:40:47Z",
-      "stars": 6,
-      "openIssues": 5,
-      "size": 1961904,
-      "installSize": 2248329,
+      "url": "pureTrue/siyuan-theme-darkside@d0a49e9da727b84c36fb7e390f64e989f95d72aa",
+      "updated": "2025-07-17T09:38:51Z",
+      "stars": 11,
+      "openIssues": 4,
+      "size": 2013109,
+      "installSize": 2419827,
       "package": {
-        "name": "Odyssey",
-        "author": "Roy",
-        "url": "https://github.com/royc01/Odyssey",
-        "version": "1.1.5",
+        "name": "siyuan-theme-darkside",
+        "author": "pureTure",
+        "url": "https://github.com/pureTrue/siyuan-theme-darkside",
+        "version": "3.4.1",
         "minAppVersion": "",
         "backends": null,
         "frontends": null,
         "displayName": {
-          "default": "Odyssey",
-          "zh_CN": "任我行",
+          "default": "PureColor",
+          "zh_CN": "PureColor",
           "en_US": ""
         },
         "description": {
-          "default": "Since when have we started to worry that there is no one in the mountain? Since when have we started to be scared about looking at the stars?",
-          "zh_CN": "从何时开始忌讳空山无人，从何时开始怕遥望星尘。",
+          "default": "Through blooms I wander, not a glance behind,Half for the path divine, half for thee enshrined.",
+          "zh_CN": "取次花丛懒回顾，半缘修道半缘君。",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": null,
+        "keywords": null
+      }
+    },
+    {
+      "url": "chenshinshi/OneNote@283a3583cd5d6cb8c8c68f7d0d887d866a526da5",
+      "updated": "2025-07-13T04:32:59Z",
+      "stars": 5,
+      "openIssues": 4,
+      "size": 344466,
+      "installSize": 607867,
+      "package": {
+        "name": "OneNote",
+        "author": "UserZYF",
+        "url": "https://github.com/chenshinshi/OneNote",
+        "version": "0.31",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "OneNote",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "description": {
+          "default": "类OneNote外观主题。",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "funding": null,
+        "keywords": null
+      }
+    },
+    {
+      "url": "StarDustSheep/StarDust@9c504a5db5fa83e5f0f87d375551860fa4f95828",
+      "updated": "2025-03-14T02:43:39Z",
+      "stars": 4,
+      "openIssues": 4,
+      "size": 464641,
+      "installSize": 639675,
+      "package": {
+        "name": "StarDust",
+        "author": "StarDustSheep",
+        "url": "https://github.com/StarDustSheep/StarDust",
+        "version": "0.7.1",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "StarDust",
+          "zh_CN": "星尘",
+          "en_US": ""
+        },
+        "description": {
+          "default": "This is a stylized theme. Maybe it can give you the feeling of the universe and the night sky",
+          "zh_CN": "这是一个风格化主题。或许能给你带来宇宙和夜空的感觉。",
           "en_US": ""
         },
         "readme": {
@@ -282,25 +660,182 @@
           "patreon": "",
           "github": "",
           "custom": [
-            "https://afdian.net/a/Savor"
+            "https://afdian.net/a/StarDustSheep"
           ]
         },
         "keywords": null
       }
     },
     {
-      "url": "Zuoqiu-Yingyi/siyuan-theme-dark-plus@f00fde78d365334c9aa0ff1240db442cd9939775",
-      "updated": "2024-05-02T14:36:15Z",
-      "stars": 139,
-      "openIssues": 19,
-      "size": 9137507,
-      "installSize": 13252506,
+      "url": "KuiyueRO/sy-theme-ink@b7555d5c001aa22f2019988a9247985270fae86d",
+      "updated": "2025-03-13T10:40:41Z",
+      "stars": 1,
+      "openIssues": 4,
+      "size": 17541,
+      "installSize": 33498,
+      "package": {
+        "name": "sy-theme-ink",
+        "author": "ACai",
+        "url": "https://github.com/KuiyueRO/sy-theme-ink",
+        "version": "1.0.0",
+        "minAppVersion": "2.8.8",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Ink Theme",
+          "zh_CN": "墨滴",
+          "en_US": ""
+        },
+        "description": {
+          "default": "A E-Ink theme for SiYuan Note",
+          "zh_CN": "一个用于思源笔记的墨水屏主题",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://ld246.com/sponsor"
+          ]
+        },
+        "keywords": [
+          "sample",
+          "示例"
+        ]
+      }
+    },
+    {
+      "url": "StarDustSheep/pink-room@ef1f44c986a259b4732c11af38e36bf785dd1f34",
+      "updated": "2025-03-11T08:35:06Z",
+      "stars": 21,
+      "openIssues": 5,
+      "size": 241122,
+      "installSize": 376535,
+      "package": {
+        "name": "pink-room",
+        "author": "StarDustSheep",
+        "url": "https://github.com/StarDustSheep/pink-room",
+        "version": "0.9.8",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "pink-room",
+          "zh_CN": "粉色小屋",
+          "en_US": ""
+        },
+        "description": {
+          "default": "It\u0026#39;s a stylize theme for Siyuan. \u003cbr\u003e In addition to the pink interface there are also blue and green interfaces.",
+          "zh_CN": "这是一个浅色风格化主题。除了粉色界面外还另有蓝色和绿色界面",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.com/order/create?user_id=3ced5134eee011eda1375254001e7c00"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "Secd0g/siyuan-themes-chromeX@2ff4b4215f25c01648ba1e541bb25eda0499b5b2",
+      "updated": "2025-02-17T01:09:34Z",
+      "stars": 0,
+      "openIssues": 0,
+      "size": 210321,
+      "installSize": 252433,
+      "package": {
+        "name": "chromeX",
+        "author": "F0rmat",
+        "url": "https://github.com/Secd0g/chromeX",
+        "version": "1.3.7",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "chromeX",
+          "zh_CN": "chromeX",
+          "en_US": ""
+        },
+        "description": {
+          "default": "A theme based on chrome-a4 with modified styles and added dark mode.",
+          "zh_CN": "以chrome-a4主题为基础，修改部分样式，添加夜间模式的主题。",
+          "en_US": ""
+        },
+        "readme": null,
+        "funding": null,
+        "keywords": null
+      }
+    },
+    {
+      "url": "ChaosPainter-pjz/SiYuan_FeishuStyle@e078d96778815afec77374e686ae5e2afb9901ba",
+      "updated": "2025-02-08T07:56:47Z",
+      "stars": 0,
+      "openIssues": 1,
+      "size": 101809,
+      "installSize": 159683,
+      "package": {
+        "name": "siyuan_feishustyle",
+        "author": "ChaosPainter-pjz",
+        "url": "https://github.com/ChaosPainter-pjz/SiYuan_FeishuStyle",
+        "version": "0.3.1",
+        "minAppVersion": "2.0.0",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "FeiShuStyle",
+          "zh_CN": "飞书风格",
+          "en_US": ""
+        },
+        "description": {
+          "default": "飞书文档风格的主题。简洁明快不失沉稳，高效办公氛围拉满，视觉舒适又尽显现代美学。",
+          "zh_CN": "飞书文档风格的主题。简洁明快不失沉稳，高效办公氛围拉满，视觉舒适又尽显现代美学。",
+          "en_US": "The color scheme of Feishu\u0026#39;s UI is truly outstanding. It\u0026#39;s simple, lively yet remains calm and steady, creating a highly efficient office atmosphere and providing a visually comfortable experience that fully showcases modern aesthetics. "
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": []
+        },
+        "keywords": [
+          "feishu",
+          "飞书"
+        ]
+      }
+    },
+    {
+      "url": "Zuoqiu-Yingyi/siyuan-theme-dark-plus@9ad6363d7a65651990629313f84869708d836b29",
+      "updated": "2025-01-14T13:43:44Z",
+      "stars": 147,
+      "openIssues": 25,
+      "size": 9140483,
+      "installSize": 13262780,
       "package": {
         "name": "Dark+",
         "author": "Zuoqiu Yingyi",
         "url": "https://github.com/Zuoqiu-Yingyi/siyuan-theme-dark-plus",
-        "version": "2.0.1",
-        "minAppVersion": "3.0.12",
+        "version": "2.0.4",
+        "minAppVersion": "3.1.17",
         "backends": null,
         "frontends": null,
         "displayName": {
@@ -323,7 +858,7 @@
           "patreon": "",
           "github": "",
           "custom": [
-            "https://afdian.net/a/zuoqiu",
+            "https://afdian.com/a/zuoqiu",
             "https://ko-fi.com/zuoqiu"
           ]
         },
@@ -349,10 +884,317 @@
       }
     },
     {
+      "url": "terwer/siyuan-theme-zhihu@8eb1c49439658910329eef1bff91276acd9f5238",
+      "updated": "2024-12-28T09:57:40Z",
+      "stars": 4,
+      "openIssues": 11,
+      "size": 559806,
+      "installSize": 692141,
+      "package": {
+        "name": "Zhihu",
+        "author": "terwer",
+        "url": "https://github.com/terwer/siyuan-theme-zhihu",
+        "version": "0.1.5",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Zhihu",
+          "zh_CN": "知乎",
+          "en_US": ""
+        },
+        "description": {
+          "default": "Zhihu style, focusing on creating a clean and comfortable creative experience",
+          "zh_CN": "知乎风格，专注于打造干净、舒适的创作体验",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.net/a/terwer"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "chenshinshi/zhang-light@10c770a170d7de7cc5451bc72578d38cc9a1e4c8",
+      "updated": "2024-11-06T01:17:25Z",
+      "stars": 3,
+      "openIssues": 2,
+      "size": 535977,
+      "installSize": 722584,
+      "package": {
+        "name": "zhang-light",
+        "author": "UserZYF",
+        "url": "https://github.com/chenshinshi/zhang-light",
+        "version": "0.90",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "zhang-light",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "description": {
+          "default": "思源笔记的一款主题。",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "funding": null,
+        "keywords": null
+      }
+    },
+    {
+      "url": "chenshinshi/chrome-a4@bcca367e3ec8fd4978c1bccee94b1ec2ab85e7ca",
+      "updated": "2024-11-05T01:05:04Z",
+      "stars": 0,
+      "openIssues": 0,
+      "size": 274862,
+      "installSize": 319339,
+      "package": {
+        "name": "chrome-a4",
+        "author": "UserZYF",
+        "url": "https://github.com/chenshinshi",
+        "version": "1.3.1",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "chrome-a4",
+          "zh_CN": "chrome-a4",
+          "en_US": ""
+        },
+        "description": {
+          "default": "a simple theme",
+          "zh_CN": "简洁主题",
+          "en_US": ""
+        },
+        "readme": null,
+        "funding": null,
+        "keywords": null
+      }
+    },
+    {
+      "url": "Morganwan90/Lightblue-siyuan-theme@c9ca437d176fa7d8c12b34e923656037ac6a6ed0",
+      "updated": "2024-09-13T08:22:58Z",
+      "stars": 26,
+      "openIssues": 1,
+      "size": 726497,
+      "installSize": 1409381,
+      "package": {
+        "name": "Light-Blue",
+        "author": "Morgan",
+        "url": "https://github.com/Morganwan90/Lightblue-siyuan-theme/",
+        "version": "1.2.0",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Light-Blue",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "description": {
+          "default": "自用主题",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.net/a/morganwan"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "Morganwan90/Darkblue-siyuan-theme@393067e24b6f98d5956d5184f5c454802805d051",
+      "updated": "2024-09-13T08:20:21Z",
+      "stars": 17,
+      "openIssues": 1,
+      "size": 1686499,
+      "installSize": 2369930,
+      "package": {
+        "name": "Dark-Blue",
+        "author": "Morgan",
+        "url": "https://github.com/Morganwan90/Darkblue-siyuan-theme",
+        "version": "1.2.0",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Dark-Blue",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "description": {
+          "default": "自用主题",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.net/a/morganwan"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "LaneDu/Knowledge-Brain@867ca0c03cd9498755e21114f8873a0842fa02af",
+      "updated": "2024-09-02T12:05:51Z",
+      "stars": 19,
+      "openIssues": 13,
+      "size": 1273312,
+      "installSize": 2110562,
+      "package": {
+        "name": "Knowledge Brain",
+        "author": "lane",
+        "url": "https://github.com/LaneDu/Knowledge-Brain",
+        "version": "3.6.1",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Knowledge Brain",
+          "zh_CN": "知识大脑",
+          "en_US": ""
+        },
+        "description": {
+          "default": "You can only remember index ,it‘s your second brain",
+          "zh_CN": "你的大脑只需要记住索引，第二大脑来记忆知识",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.net/a/knowledgebrain"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "LaneDu/Knowledge-Show@de039b9f8106d41c0959fb35f4c4d98d10575481",
+      "updated": "2024-08-27T10:07:52Z",
+      "stars": 0,
+      "openIssues": 3,
+      "size": 2174975,
+      "installSize": 2915588,
+      "package": {
+        "name": "Knowledge Show",
+        "author": "lane",
+        "url": "https://github.com/LaneDu/Knowledge-Show",
+        "version": "2.0.3",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Knowledge Show",
+          "zh_CN": "知识秀",
+          "en_US": ""
+        },
+        "description": {
+          "default": "You can only remember index ,it‘s your second brain in the night",
+          "zh_CN": "一款夜间有点炫的主题",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README_zh_CN.md",
+          "en_US": ""
+        },
+        "funding": {
+          "openCollective": "",
+          "patreon": "",
+          "github": "",
+          "custom": [
+            "https://afdian.net/a/knowledgebrain"
+          ]
+        },
+        "keywords": null
+      }
+    },
+    {
+      "url": "handlI/SiYuanSimpleTheme@8ea7d2cf2dc539e3bb156e9aa779526f362de00b",
+      "updated": "2024-08-19T10:43:46Z",
+      "stars": 6,
+      "openIssues": 3,
+      "size": 293737,
+      "installSize": 354113,
+      "package": {
+        "name": "SiYuanSimpleTheme",
+        "author": "handlI",
+        "url": "https://github.com/handlI/SiYuanSimpleTheme",
+        "version": "1.2.2",
+        "minAppVersion": "",
+        "backends": null,
+        "frontends": null,
+        "displayName": {
+          "default": "Theme: color_num_heading",
+          "zh_CN": "主题：标题自动编号和着色",
+          "en_US": ""
+        },
+        "description": {
+          "default": "This is a theme with automatic numbering and colored heading.",
+          "zh_CN": "在官方样式的基础上，对标题进行自动编号和颜色渲染。",
+          "en_US": ""
+        },
+        "readme": {
+          "default": "README.md",
+          "zh_CN": "README.md",
+          "en_US": ""
+        },
+        "funding": null,
+        "keywords": [
+          "标题",
+          "自动编号",
+          "颜色"
+        ]
+      }
+    },
+    {
       "url": "sublimeclemency/siyuan-theme-dark-tranquility@692042751de93d5606096f76e05b569586b2c525",
       "updated": "2024-04-08T11:22:23Z",
       "stars": 2,
-      "openIssues": 0,
+      "openIssues": 1,
       "size": 680807,
       "installSize": 739449,
       "package": {
@@ -432,122 +1274,6 @@
       }
     },
     {
-      "url": "Morganwan90/Darkblue-siyuan-theme@414e0a9185c8d8bcaf03821d05a87fabe6297ef2",
-      "updated": "2024-03-24T05:43:02Z",
-      "stars": 18,
-      "openIssues": 0,
-      "size": 1692046,
-      "installSize": 2371616,
-      "package": {
-        "name": "Dark-Blue",
-        "author": "Morgan",
-        "url": "https://github.com/Morganwan90/Darkblue-siyuan-theme",
-        "version": "1.1.10",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Dark-Blue",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "description": {
-          "default": "自用主题",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/morganwan"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
-      "url": "Morganwan90/Lightblue-siyuan-theme@9472b50372cf9435b1537d10dcb1b959f5e4689d",
-      "updated": "2024-03-24T05:41:46Z",
-      "stars": 26,
-      "openIssues": 1,
-      "size": 732402,
-      "installSize": 1411203,
-      "package": {
-        "name": "Light-Blue",
-        "author": "Morgan",
-        "url": "https://github.com/Morganwan90/Lightblue-siyuan-theme/",
-        "version": "1.1.10",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Light-Blue",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "description": {
-          "default": "自用主题",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/morganwan"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
-      "url": "chenshinshi/zhang-light@aa32fb450377d6de0ba8c4771a3de10377103f51",
-      "updated": "2024-03-23T04:23:20Z",
-      "stars": 2,
-      "openIssues": 0,
-      "size": 533316,
-      "installSize": 722318,
-      "package": {
-        "name": "zhang-light",
-        "author": "UserZYF",
-        "url": "https://github.com/chenshinshi/zhang-light",
-        "version": "0.89",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "zhang-light",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "description": {
-          "default": "思源笔记的一款主题。",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "funding": null,
-        "keywords": null
-      }
-    },
-    {
       "url": "IAliceBobI/sy-eye-care-dark-theme@500458b79ef5a413ff6ca637cc53cc1e2f219eff",
       "updated": "2024-03-15T11:30:47Z",
       "stars": 1,
@@ -592,85 +1318,10 @@
       }
     },
     {
-      "url": "chenshinshi/chuizi@3dec6193e9e7ec9bb16cbd9469dc1297cf0ae0fc",
-      "updated": "2024-02-25T04:28:27Z",
-      "stars": 4,
-      "openIssues": 1,
-      "size": 20223040,
-      "installSize": 30485063,
-      "package": {
-        "name": "chuizi",
-        "author": "chenshinshi",
-        "url": "https://github.com/chenshinshi/chuizi",
-        "version": "0.25",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "chuizi",
-          "zh_CN": "锤子",
-          "en_US": ""
-        },
-        "description": {
-          "default": "Upload chuizi theme by UserZYF",
-          "zh_CN": "搬运UserZYF仿锤子便签主题",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README.md",
-          "en_US": ""
-        },
-        "funding": null,
-        "keywords": null
-      }
-    },
-    {
-      "url": "StarDustSheep/pink-room@9bcdbf470d99ec7d956dc0e49b4f92324b49258a",
-      "updated": "2024-02-09T11:42:28Z",
-      "stars": 17,
-      "openIssues": 2,
-      "size": 234473,
-      "installSize": 357434,
-      "package": {
-        "name": "pink-room",
-        "author": "StarDustSheep",
-        "url": "https://github.com/StarDustSheep/pink-room",
-        "version": "0.9.4",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "pink-room",
-          "zh_CN": "粉色小屋",
-          "en_US": ""
-        },
-        "description": {
-          "default": "It's a stylize theme for Siyuan. \u003cbr\u003e In addition to the pink interface there are also blue and green interfaces.",
-          "zh_CN": "这是一个浅色风格化主题。除了粉色界面外还另有蓝色和绿色界面",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/order/create?user_id=3ced5134eee011eda1375254001e7c00"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
       "url": "chenshinshi/BHQ-Mobile@27b52a48ab0010a54dbce08a92401e0ea2b27243",
       "updated": "2024-02-02T05:48:44Z",
       "stars": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "size": 335863,
       "installSize": 414864,
       "package": {
@@ -697,70 +1348,10 @@
       }
     },
     {
-      "url": "chenshinshi/blue-dog@ed3a6561252149b41c007487d1a4bcafcacf9724",
-      "updated": "2023-12-21T05:00:54Z",
-      "stars": 1,
-      "openIssues": 0,
-      "size": 6537310,
-      "installSize": 10198051,
-      "package": {
-        "name": "blue-dog",
-        "author": "UserZYF",
-        "url": "https://github.com/chenshinshi/blue-dog",
-        "version": "0.33",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Blue-dog",
-          "zh_CN": "Blue-dog",
-          "en_US": ""
-        },
-        "description": {
-          "default": "Blue-dog主题",
-          "zh_CN": "Blue-dog主题",
-          "en_US": ""
-        },
-        "readme": null,
-        "funding": null,
-        "keywords": null
-      }
-    },
-    {
-      "url": "chenshinshi/chrome-a4@6e62bf2dada3c4489d14c1faa668c2aacf9d85e6",
-      "updated": "2023-12-20T05:12:37Z",
-      "stars": 0,
-      "openIssues": 0,
-      "size": 274762,
-      "installSize": 319106,
-      "package": {
-        "name": "chrome-a4",
-        "author": "UserZYF",
-        "url": "https://github.com/chenshinshi",
-        "version": "1.1.0",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "chrome-a4",
-          "zh_CN": "chrome-a4",
-          "en_US": ""
-        },
-        "description": {
-          "default": "a simple theme",
-          "zh_CN": "简洁主题",
-          "en_US": ""
-        },
-        "readme": null,
-        "funding": null,
-        "keywords": null
-      }
-    },
-    {
       "url": "muhanstudio/Cards-Borders@0449db9d4bab476394815c2a0414e839e875a239",
       "updated": "2023-12-17T09:39:16Z",
       "stars": 1,
-      "openIssues": 2,
+      "openIssues": 3,
       "size": 1808667,
       "installSize": 1840727,
       "package": {
@@ -772,7 +1363,7 @@
         "backends": null,
         "frontends": null,
         "displayName": {
-          "default": "Cards\u0026Borders",
+          "default": "Cards\u0026amp;Borders",
           "zh_CN": "卡片边框化",
           "en_US": ""
         },
@@ -842,7 +1433,7 @@
     {
       "url": "frostime/sy-dark-purple@614bf2d1055f821e4d437e4b1aba5e936a4a6d5a",
       "updated": "2023-12-01T04:55:32Z",
-      "stars": 2,
+      "stars": 3,
       "openIssues": 0,
       "size": 303639,
       "installSize": 343123,
@@ -881,51 +1472,10 @@
       }
     },
     {
-      "url": "terwer/siyuan-theme-zhihu@1685d2782a6f845aefe5a34267e2055c3d63e7b4",
-      "updated": "2023-11-19T05:28:34Z",
-      "stars": 3,
-      "openIssues": 10,
-      "size": 556780,
-      "installSize": 691932,
-      "package": {
-        "name": "Zhihu",
-        "author": "terwer",
-        "url": "https://github.com/terwer/siyuan-theme-zhihu",
-        "version": "0.1.1",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Zhihu",
-          "zh_CN": "知乎",
-          "en_US": ""
-        },
-        "description": {
-          "default": "Zhihu style, focusing on creating a clean and comfortable creative experience",
-          "zh_CN": "知乎风格，专注于打造干净、舒适的创作体验",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/terwer"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
       "url": "chenshinshi/zhang-dark@1d27b1d6c7e6c25110b0ff989978415ae40d118e",
       "updated": "2023-11-15T05:40:51Z",
       "stars": 1,
-      "openIssues": 1,
+      "openIssues": 2,
       "size": 591390,
       "installSize": 754746,
       "package": {
@@ -990,78 +1540,10 @@
       }
     },
     {
-      "url": "chenshinshi/OneNote@14c8500159c769947389364b39e1e609c19f3d46",
-      "updated": "2023-11-06T03:50:56Z",
-      "stars": 5,
-      "openIssues": 2,
-      "size": 438429,
-      "installSize": 737856,
-      "package": {
-        "name": "OneNote",
-        "author": "UserZYF",
-        "url": "https://github.com/chenshinshi/OneNote",
-        "version": "0.25",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "OneNote",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "description": {
-          "default": "类OneNote外观主题。",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "funding": null,
-        "keywords": null
-      }
-    },
-    {
-      "url": "chenshinshi/Cliff-Dark@63cb040785eaaa4e0ee770e33904a4c8ce48b7de",
-      "updated": "2023-11-06T00:10:34Z",
-      "stars": 2,
-      "openIssues": 4,
-      "size": 3026653,
-      "installSize": 3260924,
-      "package": {
-        "name": "Cliff Dark",
-        "author": "Crowds21",
-        "url": "https://github.com/chenshinshi/Cliff-Dark",
-        "version": "3.4.2",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Cliff-Dark",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "description": {
-          "default": "一款适合背景图片插件的夜间主题，由Crowds21制作，chenshinshi适配新版本。",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "",
-          "en_US": ""
-        },
-        "funding": null,
-        "keywords": null
-      }
-    },
-    {
       "url": "chenshinshi/toy@4f11f67065f39ba7ae1f82651d1f2acc7b13410e",
       "updated": "2023-11-03T03:26:11Z",
       "stars": 5,
-      "openIssues": 7,
+      "openIssues": 9,
       "size": 2977377,
       "installSize": 3328543,
       "package": {
@@ -1094,8 +1576,8 @@
     {
       "url": "chenshinshi/vert@761b8b7c1149e0562ed3dde7ed56dc3aac3a69b7",
       "updated": "2023-09-27T02:59:57Z",
-      "stars": 1,
-      "openIssues": 0,
+      "stars": 2,
+      "openIssues": 1,
       "size": 2951528,
       "installSize": 9272322,
       "package": {
@@ -1129,7 +1611,7 @@
       "url": "StarDustSheep/It_hurts@a821992381e4658d8d3deafe5d55f951789c0b23",
       "updated": "2023-08-23T08:45:10Z",
       "stars": 0,
-      "openIssues": 0,
+      "openIssues": 2,
       "size": 658008,
       "installSize": 695588,
       "package": {
@@ -1161,47 +1643,6 @@
           "github": "",
           "custom": [
             "https://www.bilibili.com/video/BV1h3411j7EA/?vd_source=53287ba5828305cc168ced022e9c72ce"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
-      "url": "LaneDu/Knowledge-Brain@8fb4ccc9669e9b8c77230e49ba6c084c4e801460",
-      "updated": "2023-08-16T09:43:59Z",
-      "stars": 19,
-      "openIssues": 13,
-      "size": 1265308,
-      "installSize": 2092668,
-      "package": {
-        "name": "Knowledge Brain",
-        "author": "lane",
-        "url": "https://github.com/LaneDu/Knowledge-Brain",
-        "version": "3.5.3",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Knowledge Brain",
-          "zh_CN": "知识大脑",
-          "en_US": ""
-        },
-        "description": {
-          "default": "You can only remember index ,it‘s your second brain",
-          "zh_CN": "你的大脑只需要记住索引，第二大脑来记忆知识",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/knowledgebrain"
           ]
         },
         "keywords": null
@@ -1249,91 +1690,9 @@
       }
     },
     {
-      "url": "LaneDu/Knowledge-Show@eafde5a4688a42bfc31a124c648d52f338e4bde6",
-      "updated": "2023-08-09T09:42:31Z",
-      "stars": 0,
-      "openIssues": 3,
-      "size": 2174255,
-      "installSize": 2914057,
-      "package": {
-        "name": "Knowledge Show",
-        "author": "lane",
-        "url": "https://github.com/LaneDu/Knowledge-Show",
-        "version": "2.0.1",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "Knowledge Show",
-          "zh_CN": "知识秀",
-          "en_US": ""
-        },
-        "description": {
-          "default": "You can only remember index ,it‘s your second brain in the night",
-          "zh_CN": "一款夜间有点炫的主题",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/knowledgebrain"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
-      "url": "StarDustSheep/StarDust@9c504a5db5fa83e5f0f87d375551860fa4f95828",
-      "updated": "2023-08-07T09:23:18Z",
-      "stars": 5,
-      "openIssues": 4,
-      "size": 457694,
-      "installSize": 627897,
-      "package": {
-        "name": "StarDust",
-        "author": "StarDustSheep",
-        "url": "https://github.com/StarDustSheep/StarDust",
-        "version": "0.7.1",
-        "minAppVersion": "",
-        "backends": null,
-        "frontends": null,
-        "displayName": {
-          "default": "StarDust",
-          "zh_CN": "星尘",
-          "en_US": ""
-        },
-        "description": {
-          "default": "This is a stylized theme. Maybe it can give you the feeling of the universe and the night sky",
-          "zh_CN": "这是一个风格化主题。或许能给你带来宇宙和夜空的感觉。",
-          "en_US": ""
-        },
-        "readme": {
-          "default": "README.md",
-          "zh_CN": "README_zh_CN.md",
-          "en_US": ""
-        },
-        "funding": {
-          "openCollective": "",
-          "patreon": "",
-          "github": "",
-          "custom": [
-            "https://afdian.net/a/StarDustSheep"
-          ]
-        },
-        "keywords": null
-      }
-    },
-    {
       "url": "TinkMingKing/siyuan-themes-vscodelite@52387010ecc6d96de7c950a764653577cd259cab",
       "updated": "2023-07-10T02:05:46Z",
-      "stars": 4,
+      "stars": 5,
       "openIssues": 1,
       "size": 83523,
       "installSize": 106196,
@@ -1374,8 +1733,8 @@
     {
       "url": "svchord/Rem-Craft@529e1a1eca8223eff668a02547d80f8b59ddb915",
       "updated": "2023-07-09T19:20:51Z",
-      "stars": 110,
-      "openIssues": 17,
+      "stars": 113,
+      "openIssues": 26,
       "size": 1620626,
       "installSize": 2772440,
       "package": {
@@ -1415,7 +1774,7 @@
     {
       "url": "siyuan-note/theme-sample@1ff7079a27543e589f0ed18effaceaf40ccdf8cf",
       "updated": "2023-05-30T03:42:50Z",
-      "stars": 3,
+      "stars": 4,
       "openIssues": 0,
       "size": 13340,
       "installSize": 26549,
